@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #333;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.swiper-pagination-bullets {
+    bottom: 10px;
+}
+
+.swiper-pagination-bullet {
+    background-color: #008CBA;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #005f73;
+}
